@@ -17,10 +17,10 @@
     <children>
         <Pane prefHeight="372.0" prefWidth="574.0">
             <children>
-                <Pane fx:id="panelEnter" prefHeight="338.0" prefWidth="589.0" visible="false">
+                <Pane fx:id="panelEnter" prefHeight="338.0" prefWidth="589.0" style="-fx-background-color: #EEF6F7;" visible="false">
                     <children>
-                        <TextField fx:id="textLog" layoutX="220.0" layoutY="82.0" />
-                        <TextField fx:id="textPas" layoutX="220.0" layoutY="144.0" />
+                        <TextField fx:id="textLog" layoutX="220.0" layoutY="82.0" style="-fx-border-color: #0045ff;" />
+                        <TextField fx:id="textPas" layoutX="220.0" layoutY="144.0" style="-fx-border-color: #0045ff;" />
                         <Label fx:id="labelLog" depthTest="DISABLE" layoutX="275.0" layoutY="53.0" nodeOrientation="LEFT_TO_RIGHT" pickOnBounds="false" text="Логин">
                             <font>
                                 <Font size="14.0" />
@@ -32,36 +32,36 @@
                                 <Font size="14.0" />
                             </font>
                         </Label>
-                        <Button fx:id="enter" layoutX="220.0" layoutY="185.0" mnemonicParsing="false" onAction="#ButtonClick" prefHeight="31.0" prefWidth="149.0" text="Войти" />
+                        <Button fx:id="enter" layoutX="220.0" layoutY="185.0" mnemonicParsing="false" onAction="#ButtonClick" prefHeight="31.0" prefWidth="149.0" style="-fx-background-color: #0085ff;" text="Войти" textFill="WHITE" />
                         <Label fx:id="resultEnter" layoutX="220.0" layoutY="23.0" prefHeight="20.0" prefWidth="149.0">
                             <font>
                                 <Font size="11.0" />
                             </font>
                         </Label>
-                  <Button fx:id="regButton" layoutX="220.0" layoutY="225.0" mnemonicParsing="false" onAction="#regButtonClick" prefHeight="31.0" prefWidth="149.0" text="Регистрация" />
+                  <Button fx:id="regButton" layoutX="220.0" layoutY="225.0" mnemonicParsing="false" onAction="#regButtonClick" prefHeight="31.0" prefWidth="149.0" style="-fx-background-color: #0085ff;" text="Регистрация" textFill="WHITE" />
                     </children>
                 </Pane>
-                <Pane fx:id="panelMain" prefHeight="338.0" prefWidth="574.0" visible="false">
+                <Pane fx:id="panelMain" prefHeight="338.0" prefWidth="574.0" style="-fx-background-color: #EEF6F7;">
                     <children>
                         <Label layoutX="241.0" layoutY="14.0" text="Личный кабинет" />
                     </children></Pane>
-            <Pane fx:id="panelReg" prefHeight="338.0" prefWidth="574.0">
+            <Pane fx:id="panelReg" prefHeight="338.0" prefWidth="574.0" style="-fx-background-color: #EEF6F7;" visible="false">
                <children>
-                  <Button fx:id="regUser" layoutX="50.0" layoutY="238.0" mnemonicParsing="false" onAction="#regUserButtonClick" prefHeight="25.0" prefWidth="111.0" text="Регистрация" />
-                  <DatePicker fx:id="regBirthday" layoutX="105.0" layoutY="194.0" prefHeight="25.0" prefWidth="150.0" />
-                  <TextField fx:id="regDadName" layoutX="105.0" layoutY="134.0" prefHeight="25.0" prefWidth="149.0" />
-                  <TextField fx:id="regFirstName" layoutX="105.0" layoutY="104.0" prefHeight="25.0" prefWidth="149.0" />
-                  <TextField fx:id="regLastName" layoutX="105.0" layoutY="74.0" prefHeight="25.0" prefWidth="149.0" />
-                  <TextField fx:id="regLog" layoutX="105.0" layoutY="14.0" prefHeight="25.0" prefWidth="149.0" />
-                  <TextField fx:id="regPass" layoutX="105.0" layoutY="44.0" prefHeight="25.0" prefWidth="149.0" />
-                  <Label layoutX="13.0" layoutY="18.0" text="Логин:" />
-                  <Label layoutX="13.0" layoutY="48.0" text="Пароль:" />
-                  <Label layoutX="13.0" layoutY="78.0" text="Фамилия:" />
-                  <Label layoutX="13.0" layoutY="108.0" text="Имя:" />
-                  <Label layoutX="13.0" layoutY="138.0" text="Отчество:" />
-                  <Label layoutX="13.0" layoutY="168.0" text="Пол:" />
-                  <Label layoutX="13.0" layoutY="198.0" text="Дата рождения:" />
-                  <ComboBox fx:id="regPol" layoutX="105.0" layoutY="164.0" prefWidth="150.0" />
+                  <Button fx:id="regUser" layoutX="57.0" layoutY="269.0" mnemonicParsing="false" onAction="#regUserButtonClick" prefHeight="25.0" prefWidth="111.0" style="-fx-background-color: #0085ff;" text="Регистрация" textFill="WHITE" />
+                  <DatePicker fx:id="regBirthday" layoutX="112.0" layoutY="225.0" prefHeight="25.0" prefWidth="150.0" style="-fx-border-color: #0040ff;" />
+                  <TextField fx:id="regDadName" layoutX="112.0" layoutY="165.0" prefHeight="25.0" prefWidth="149.0" style="-fx-border-color: #0040ff;" />
+                  <TextField fx:id="regFirstName" layoutX="112.0" layoutY="135.0" prefHeight="25.0" prefWidth="149.0" style="-fx-border-color: #0040ff;" />
+                  <TextField fx:id="regLastName" layoutX="112.0" layoutY="105.0" prefHeight="25.0" prefWidth="149.0" style="-fx-border-color: #0040ff;" />
+                  <TextField fx:id="regLog" layoutX="112.0" layoutY="45.0" prefHeight="25.0" prefWidth="149.0" style="-fx-border-color: #0040ff;" />
+                  <TextField fx:id="regPass" layoutX="112.0" layoutY="74.0" prefHeight="25.0" prefWidth="149.0" style="-fx-border-color: #0040ff;" />
+                  <Label layoutX="20.0" layoutY="49.0" text="Логин:" />
+                  <Label layoutX="20.0" layoutY="79.0" text="Пароль:" />
+                  <Label layoutX="20.0" layoutY="109.0" text="Фамилия:" />
+                  <Label layoutX="20.0" layoutY="139.0" text="Имя:" />
+                  <Label layoutX="20.0" layoutY="169.0" text="Отчество:" />
+                  <Label layoutX="20.0" layoutY="199.0" text="Пол:" />
+                  <Label layoutX="20.0" layoutY="229.0" text="Дата рождения:" />
+                  <ComboBox fx:id="regPol" layoutX="112.0" layoutY="195.0" prefWidth="150.0" style="-fx-border-color: #0040ff;" />
                </children>
             </Pane>
             </children>
