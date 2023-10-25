@@ -19,9 +19,9 @@ import java.util.concurrent.Executor;
 
 public class HelloController implements Initializable {
     //region addElement
-    String url = "jdbc:mysql://localhost:3306/forBank";
-    String user = "root";
-    String password = "8910098-0m";
+    String url = "jdbc:mysql://192.168.0.179:3306/AssBank";
+    String user = "Yoghurt";
+    String password = "Kaka228";
 
     private Connection connection;
 
